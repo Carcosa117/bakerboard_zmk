@@ -49,6 +49,11 @@
             bindings = <&mkp MB1>;
             key-positions = <15 20>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <27 26>;
+        };
     };
 
     behaviors {
