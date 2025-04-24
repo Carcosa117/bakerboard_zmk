@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define LOWER 1
@@ -45,8 +44,8 @@
             key-positions = <25 41>;
         };
 
-        doubleclick {
-            bindings = <&mkp MB1>;
+        pauseplay {
+            bindings = <&kp K_PLAY_PAUSE>;
             key-positions = <15 20>;
         };
 
@@ -134,11 +133,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans        &trans            &trans        &trans       &trans    &trans                      &trans        &trans         &trans    &trans     &trans   &to 3
-&trans        &kp INS           &kp PSCRN     &kp K_CMENU  &kp HOME  &kp ESC                     &kp PG_UP     &kp END        &kp UP    &trans     &kp N0   &trans
-&trans        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LSHFT    &kp TAB   &kp CLCK                    &kp PG_DN     &kp LEFT       &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&kp LEFT_WIN  &kp Z             &kp X         &kp C        &kp V     &kp Y     &trans    &trans  &kp LEFT_WIN  &kp BACKSPACE  &trans    &trans     &trans   &trans
-                                &trans        &to 1        &trans    &trans    &trans    &trans  &trans        &trans         &to 0     &trans
+&trans        &trans            &trans        &trans       &trans    &trans                        &trans        &trans         &trans    &trans     &trans   &to 3
+&trans        &kp INS           &kp PSCRN     &kp K_CMENU  &kp HOME  &kp ESC                       &kp PG_UP     &kp HOME       &kp UP    &kp END    &kp N0   &trans
+&trans        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LSHFT    &kp TAB   &kp ESCAPE                    &kp PG_DN     &kp LEFT       &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
+&kp LEFT_WIN  &kp Z             &kp X         &kp C        &kp V     &kp Y       &trans    &trans  &kp LEFT_WIN  &kp BACKSPACE  &trans    &trans     &trans   &trans
+                                &trans        &to 1        &trans    &trans      &trans    &trans  &trans        &trans         &to 0     &trans
             >;
 
             sensor-bindings =
