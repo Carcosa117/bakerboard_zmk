@@ -66,6 +66,26 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <31 32>;
         };
+
+        connectivity {
+            bindings = <&to 2>;
+            key-positions = <54 55>;
+        };
+
+        nav {
+            bindings = <&to 3>;
+            key-positions = <31 33>;
+        };
+
+        main {
+            bindings = <&to 0>;
+            key-positions = <40 39>;
+        };
+
+        sym {
+            bindings = <&to 1>;
+            key-positions = <47 45>;
+        };
     };
 
     behaviors {
