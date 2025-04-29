@@ -86,6 +86,11 @@
             bindings = <&to 1>;
             key-positions = <47 45>;
         };
+
+        winders {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <28 31>;
+        };
     };
 
     behaviors {
