@@ -38,7 +38,7 @@
         };
 
         pauseplay {
-            bindings = <&kp K_PLAY_PAUSE>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <15 20>;
         };
 
@@ -79,7 +79,7 @@
 
         main {
             bindings = <&to 0>;
-            key-positions = <39 41>;
+            key-positions = <38 40>;
         };
 
         sym {
@@ -110,6 +110,16 @@
         bt4 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <59 50>;
+        };
+
+        copy {
+            bindings = <&kp RC(C)>;
+            key-positions = <27 32>;
+        };
+
+        paste {
+            bindings = <&kp RC(V)>;
+            key-positions = <28 31>;
         };
     };
 
