@@ -37,16 +37,6 @@
             key-positions = <26 29>;
         };
 
-        pauseplay {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <15 20>;
-        };
-
-        undo {
-            bindings = <&kp LC(Z)>;
-            key-positions = <27 26>;
-        };
-
         end {
             bindings = <&kp END>;
             key-positions = <30 31>;
@@ -64,17 +54,17 @@
 
         nav {
             bindings = <&to 3>;
-            key-positions = <31 33>;
+            key-positions = <19 21>;
         };
 
         main {
             bindings = <&to 0>;
-            key-positions = <38 40>;
+            key-positions = <31 33>;
         };
 
         sym {
             bindings = <&to 1>;
-            key-positions = <47 45>;
+            key-positions = <40 38>;
         };
 
         bt1 {
@@ -97,16 +87,6 @@
             key-positions = <59 50>;
         };
 
-        copy {
-            bindings = <&kp RC(C)>;
-            key-positions = <27 32>;
-        };
-
-        paste {
-            bindings = <&kp RC(V)>;
-            key-positions = <28 31>;
-        };
-
         layer2 {
             bindings = <&tog 2>;
             key-positions = <28 26>;
@@ -115,6 +95,11 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <28 27>;
+        };
+
+        ctrlshftesc {
+            bindings = <&kp LC(LS(ESC))>;
+            key-positions = <33 32 31>;
         };
     };
 
