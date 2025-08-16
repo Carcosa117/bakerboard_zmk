@@ -62,6 +62,26 @@
             bindings = <&kp ESC>;
             key-positions = <31 32 33>;
         };
+
+        L1 {
+            bindings = <&tog 0>;
+            key-positions = <11 10>;
+        };
+
+        L2 {
+            bindings = <&tog 1>;
+            key-positions = <22 23>;
+        };
+
+        L3 {
+            bindings = <&tog 2>;
+            key-positions = <34 35>;
+        };
+
+        L4 {
+            bindings = <&tog 3>;
+            key-positions = <48 49>;
+        };
     };
 
     behaviors {
