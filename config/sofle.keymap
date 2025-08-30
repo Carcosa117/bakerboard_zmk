@@ -82,6 +82,11 @@
             bindings = <&tog 3>;
             key-positions = <36 49>;
         };
+
+        bkspc+ctrl {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <45 46>;
+        };
     };
 
     behaviors {
