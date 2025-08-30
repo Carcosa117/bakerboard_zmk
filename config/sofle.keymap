@@ -65,22 +65,22 @@
 
         L1 {
             bindings = <&tog 0>;
-            key-positions = <11 10>;
+            key-positions = <11 0>;
         };
 
         L2 {
             bindings = <&tog 1>;
-            key-positions = <22 23>;
+            key-positions = <23 12>;
         };
 
         L3 {
             bindings = <&tog 2>;
-            key-positions = <34 35>;
+            key-positions = <35 24>;
         };
 
         L4 {
             bindings = <&tog 3>;
-            key-positions = <48 49>;
+            key-positions = <36 49>;
         };
     };
 
