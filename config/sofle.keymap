@@ -64,23 +64,23 @@
         };
 
         L1 {
-            bindings = <&tog 0>;
-            key-positions = <11 0>;
+            bindings = <&to 0>;
+            key-positions = <54 57>;
         };
 
         L2 {
             bindings = <&tog 1>;
-            key-positions = <23 12>;
+            key-positions = <55 53>;
         };
 
         L3 {
             bindings = <&tog 2>;
-            key-positions = <35 24>;
+            key-positions = <54 56>;
         };
 
         L4 {
             bindings = <&tog 3>;
-            key-positions = <36 49>;
+            key-positions = <11 0>;
         };
 
         bkspc+ctrl {
